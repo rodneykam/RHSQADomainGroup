@@ -1,6 +1,30 @@
-﻿{
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "rhsqastorage"
+    },
+    "adminUsername": {
+      "value": "rhsqaAdministrator"
+    },
+    "adminPassword": {
+      "value": "R3l@yH3@lth"
+    },
+    "adVMSize": {
+      "value": "Standard_D2"
+    },
+    "dnsPrefix": {
+      "value": "rhsqa"
+    },
+    "publicIPAddressName": {
+      "value": "RHSQA"
+    },
+    "domainName": {
+      "value": "RHSQA.AD"
+    },
+    "assetLocation": {
+      "value": "https://github.com/rodneykam/azure-quickstart-templates/raw/master/active-directory-new-domain-ha-2-dc/"
     }
+  }
 }
