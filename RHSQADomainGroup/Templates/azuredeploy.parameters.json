@@ -24,7 +24,7 @@
       "value": "RHSQA.AD"
     },
     "assetLocation": {
-      "value": "https://github.com/rodneykam/azure-quickstart-templates/raw/master/active-directory-new-domain-ha-2-dc/"
+      "value": "https://github.com/rodneykam/RHSQADomainGroup/raw/master/RHSQADomainGroup/Templates/"
     }
   }
 }

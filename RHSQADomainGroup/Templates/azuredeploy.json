@@ -237,7 +237,9 @@
     "adPDCModulesURL": "[concat(parameters('assetLocation'),'CreateADPDC.ps1.zip')]",
     "adPDCConfigurationFunction": "CreateADPDC.ps1\\CreateADPDC",
     "adBDCModulesURL": "[concat(parameters('assetLocation'),'CreateADBDC.ps1.zip')]",
-    "adBDCConfigurationFunction": "CreateADBDC.ps1\\CreateADBDC"
+    "adBDCConfigurationFunction": "CreateADBDC.ps1\\CreateADBDC",
+      "CreateADDomainGroupsArchiveFolder": "DSC",
+      "CreateADDomainGroupsArchiveFileName": "CreateADDomainGroups.zip"
   },
   "resources": [
     {
