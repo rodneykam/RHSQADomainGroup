@@ -24,7 +24,7 @@
       "value": "RHSQA.AD"
     },
     "assetLocation": {
-      "value": "https://github.com/rodneykam/RHSQADomainGroup/raw/master/RHSQADomainGroup/Templates/"
+      "value": "https://raw.githubusercontent.com/rodneykam/RHSQADomainGroup/master/RHSQADomainGroup/Templates/"
     }
   }
 }
