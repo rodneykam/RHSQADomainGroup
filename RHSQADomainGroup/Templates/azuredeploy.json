@@ -221,20 +221,6 @@
           "metadata": {
               "description": "Auto-generated token to access _artifactsLocation"
           }
-      },
-      "CreateDomainGroupsUpdateTagVersion": {
-          "type": "string",
-          "defaultValue": "1.0",
-          "metadata": {
-              "description": "This value must be changed from a previous deployment to ensure the extension will run"
-          }
-      },
-      "CreateADGroupsUpdateTagVersion": {
-          "type": "string",
-          "defaultValue": "1.0",
-          "metadata": {
-              "description": "This value must be changed from a previous deployment to ensure the extension will run"
-          }
       }
   },
   "variables": {
